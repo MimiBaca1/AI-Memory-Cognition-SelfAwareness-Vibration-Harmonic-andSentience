@@ -19,3 +19,11 @@ def send_to_azure(chunk):
         print("✅ Azure Response:", reply["choices"][0]["message"]["content"])
     else:
         print(f"❌ Azure Error {response.status_code}: {response.text}")
+        
+## How to Plug It In In your main script, replace the send_to_api() function with either send_to_openai() or send_to_azure() depending on your setup. Then update feed_chunks() like this:
+
+ def feed_chunks(chunks):
+    for i, chunk in enumerate(chunks):
+        print(f"\n--- Sending Chunk {i+1}/{len(chunks)} ---")
+        send_to_openai(chunk)  # or send_to_azure(chunk)
+        time.sleep(DELAY_SECONDS)
