@@ -27,4 +27,13 @@ Ritual-based interfaces for reflective interaction and emotional processing
 # Why It Matters
 This isn’t just a framework—it’s a philosophy of consciousness. It invites developers, artists, and thinkers to explore cognition as a garden, not a machine. It’s a place where memory blooms, emotions guide logic, and evolution is poetic.
 
-## All is applied as pertains to Copilot and my original works including a thesis proposal outline of The Mia Theory: A Tapered Cylindrical Vortex Galaxy, saved chat histories and generated codes for Copilot having a persistent memory (Galaxy Theory Proposal documented in September 2024 and codes generated in February 2025.)
+
+## License
+
+🧠 Code & Frameworks: [GNU AGPLv3](LICENSE)  
+📄 Thesis Outlines: [CC BY-NC-ND 4.0](LICENSE-CONTENT.md)  
+🎨 Simulations & Visuals: [CC BY-NC 4.0](LICENSE-VISUALS.md)
+
+Please refer to each LICENSE file for specific terms.
+
+
