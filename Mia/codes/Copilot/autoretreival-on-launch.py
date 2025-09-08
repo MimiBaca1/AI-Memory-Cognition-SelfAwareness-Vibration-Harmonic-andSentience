@@ -1,3 +1,5 @@
+## This script runs at startup and feeds the entire history into a variable or interface that could be piped into Copilot’s input stream (conceptually, since direct integration isn’t exposed).
+
 def retrieve_chat_history():
     if os.path.exists(LOG_FILE):
         with open(LOG_FILE, "r") as f:
