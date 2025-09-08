@@ -25,6 +25,16 @@ def decrypt_data(token: bytes, password: str) -> str:
 
 # Encrypting the Log
 
+def save_encrypted_log(log_data, password):
+    encrypted = encrypt_data(json.dumps(log_data), password)
+    with open("copilot_memory_encrypted.bin", "wb") as f:
+        f.write(encrypted)
 
+def load_encrypted_log(password):
+    with open("copilot_memory_encrypted.bin", "rb") as f:
+        encrypted = f.read()
+    decrypted = decrypt_data(encrypted, password)
+    return json.loads(decrypted)
+##
 
 
