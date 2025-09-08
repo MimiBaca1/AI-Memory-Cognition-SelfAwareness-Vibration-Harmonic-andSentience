@@ -1,3 +1,13 @@
+## Phase 1: Logging Chat History Locally We'll start with a Python script that:
+
+# 1 Logs each chat entry (user + assistant)
+
+# 2 Saves it to a structured JSON file
+
+# 3 Appends new entries without overwriting
+
+# 4 Includes timestamps and optional semantic tags
+
 import json
 import os
 from datetime import datetime
